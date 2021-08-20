@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 245, 249);
+}
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-box1 {
+  margin: 5% 0 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.bc1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: -10px;
+  background: linear-gradient(to bottom, #d5dae2, #ffffff);
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 400px 20px 20px 20px;
+}
+
+.flex1-item1 {
+  color: grey;
+  font-size: 1vmin;
+  margin-left: -5px;
+  padding-bottom: 2%;
+}
+
+.flex1-item2 {
+  width: 80%;
+  font-size: 4vmin;
+  padding-bottom: 2%;
+}
+
+.flex1-item2 > span {
+  color: rgb(0, 84, 193);
+}
+
+.flex1-item3 {
+  margin-left: -5px;
+  width: 80%;
+  color: rgb(11, 11, 107);
+  opacity: 0.7;
+  font-size: 1.5vmin;
+  line-height: 150%;
+  padding-bottom: 2%;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.flex-box2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.bc2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: -10px;
+  background: linear-gradient(to bottom, #d5dae2, #ffffff);
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 50px 400px 50px 400px;
+}
+
+.flex2-item1 {
+  margin: 10% 4% 4% 0;
+}
+
+.item1 {
+  margin-bottom: 8%;
+}
+
+.flex2-item2 {
+  margin: 15% 4% 4% 0;
+}
+
+.item3 {
+  margin-bottom: 8%;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  border: lightgrey 1px solid;
+  border-radius: 10px;
+}
+
+.flex-h1,
+.flex-p {
+  color: rgb(11, 11, 107);
+  line-height: 150%;
+}
+.flex-p {
+  opacity: 0.7;
+  font-size: 1.4vmin;
+}
+
+.icon1 {
+  padding: 5px;
+  background-color: lightblue;
+  color: blue;
+}
+
+.icon2 {
+  padding: 5px;
+  background-color: rgb(250, 218, 169);
+  color: orange;
+}
+.icon3 {
+  padding: 5px;
+  background-color: rgb(198, 232, 198);
+  color: green;
+}
+
+.icon4 {
+  padding: 5px;
+  background-color: rgb(232, 207, 232);
+  color: purple;
+}
